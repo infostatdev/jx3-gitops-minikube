@@ -7,8 +7,7 @@ spec:
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     clusterName: kind
-    devEnvApprovers:
-    - infostatdev
+    devEnvApprovers: infostatdev
     environmentGitOwner: infostatdev
     gitKind: github
     gitName: github

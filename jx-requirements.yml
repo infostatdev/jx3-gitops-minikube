@@ -23,7 +23,7 @@ spec:
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
+      email: "papyrus.zak@gmail.com"
       enabled: false
       production: false
   repository: bucketrepo

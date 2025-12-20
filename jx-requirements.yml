@@ -8,7 +8,7 @@ spec:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     clusterName: kind
     devEnvApprovers: github
-    environmentGitOwner: infostatdev
+    environmentGitOwner: public
     gitKind: github
     gitName: github
     gitServer: https://github.com

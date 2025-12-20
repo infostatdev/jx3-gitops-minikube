@@ -5,28 +5,28 @@ spec:
   autoUpdate:
     enabled: false
     schedule: ""
+  bootConfigURL: https://github.com/jx3-gitops-repositories/jx3-minikube
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     clusterName: kind
-    devEnvApprovers: 
-<<<<<<< HEAD
-     - github
-=======
+    devEnvApprovers:
       - github
->>>>>>> 305a03f (correction du fichier requirement.yml)
-    environmentGitOwner: public
+    environmentGitOwner: github
     gitKind: github
     gitName: github
     gitServer: https://github.com
+    namespace: jx
     provider: minikube
   environments:
     - key: dev
     - key: staging
     - key: production
+  gitOps: true
   ingress:
     domain: 192.168.49.2.nip.io
     externalDNS: false
     namespaceSubDomain: -jx.
+    ignoreLoadBalancer: true
     tls:
       email: "papyrus.zak@gmail.com"
       enabled: false

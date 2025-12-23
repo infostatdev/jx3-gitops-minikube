@@ -8,12 +8,10 @@ spec:
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     clusterName: kind
-    environmentGitOwner: public
     gitKind: github
     gitName: github
     gitServer: https://github.com
     provider: minikube
-    devEnvApprovers:
   environments:
     - key: dev
     - key: staging
